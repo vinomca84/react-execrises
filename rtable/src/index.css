@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding:30px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.listitems input[type="text"]{border:1px lightblue solid; padding:5px; margin-right:10px}
+.listitems button{border:1px lightblue solid; padding:5px; margin-right:10px}
+table{border:1px #999 solid; margin-top:10px; width: 300px;}
+table th{background-color: #ccc;}
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
